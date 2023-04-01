@@ -1,0 +1,210 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap'); */
+
+* {
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+    background-color: #0000;
+}
+
+.constant-navbar .container-fluid {
+    background-color: black;
+}
+
+.navbar-brand img {
+    height: 50px;
+    width: 120px;
+}
+
+#navbarSupportedContent {
+    justify-content: center;
+}
+
+.fast img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.dragon {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 100px;
+    background: none;
+    -webkit-text-stroke: 2px #ffaf03;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.world {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    background: none;
+    color: #fff;
+    font-size: 100px;
+    -webkit-text-stroke: 2px #ffaf03;
+}
+
+.description {
+    position: absolute;
+    top: 60%;
+    left: 2%;
+    background: none;
+    color: #ffaf03;
+    font-size: 20px;
+    -webkit-text-stroke: 0.6px black;
+}
+
+.play-btn {
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    background: none;
+}
+
+.info-btn {
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    background: none;
+}
+
+.carousel-inner {
+    height: 200px !important;
+    width: 200px !important;
+}
+
+
+/* NEW RELEASE */
+
+.new {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    gap: 10px;
+    overflow-x: scroll;
+    margin-left: 10px;
+}
+
+.new img {
+    height: 200px;
+    width: 100px;
+    border-radius: 5%;
+    object-fit: cover;
+    transition: width 1s;
+}
+
+
+/* MOST WATCHED  */
+
+.win {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    gap: 10px;
+    overflow-x: auto;
+    margin-left: 10px;
+}
+
+.win img {
+    height: 200px;
+    width: 100px;
+    border-radius: 5%;
+    object-fit: cover;
+}
+
+
+/* HORROR  */
+
+.scare {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    gap: 10px;
+    overflow-x: scroll;
+    margin-left: 10px;
+}
+
+.scare img {
+    height: 200px;
+    width: 100px;
+    border-radius: 5%;
+    object-fit: cover;
+}
+
+
+/* ANIMATION  */
+
+.good {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    gap: 10px;
+    overflow-x: scroll;
+    margin-left: 10px;
+}
+
+.good img {
+    height: 200px;
+    width: 100px;
+    border-radius: 5%;
+    object-fit: cover;
+}
+
+
+/* ROMANCE AND DRAMA   */
+
+.drama {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    gap: 10px;
+    overflow-x: scroll;
+    margin-left: 10px;
+}
+
+.drama img {
+    height: 200px;
+    width: 100px;
+    border-radius: 5%;
+    object-fit: cover;
+}
+
+
+/* styling watch page*/
+
+.video {
+    width: 100%;
+    height: 500px;
+}
+
+.jurasic-details {
+    font-size: 40px;
+    margin-left: 10px;
+    color: #fff;
+    -webkit-text-stroke: #ffaf03 0.1px;
+}
+
+.yr {
+    padding: 10px;
+    color: #fff;
+    position: absolute;
+}
+
+.generation {
+    background-color: #ffaf03;
+    position: absolute;
+    width: 2.5%;
+    height: 4%;
+    margin-top: 10px;
+    margin-left: 6%;
+}
+
+.jurassic-detail {
+    color: #fff;
+    margin-top: 3%;
+    font-weight: bold;
+    margin-left: 30px;
+}
